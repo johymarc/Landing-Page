@@ -1,2 +1,183 @@
 body{
+    margin: 0;
+}
+
+button{
+    background: #3882f6;
+    border-radius: 8px;
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    width: 150px;
+    height: 40px;
+}
+
+.header, .footer{
+    padding: 0px 100px;
+}
+
+.header{
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+.navigation{
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    
+}
+
+.logo{
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.header-links{
+    display: flex;
+    list-style-type: none;
+    margin-left: auto;
+    gap: 30px;
+}
+
+a{
+    color: #e5e7eb;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.message{
+    display: flex;
+    margin: 85px 0px;
+    
+
+}
+
+.message-card{
+    max-width: 50%;
+}
+
+.message-card h2{
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 800;
+    margin: 0px;
+    margin-bottom: 5px ;
+}
+
+.message-card p{
+    color: #e5e7eb;
+    font-size: 18px;
+    margin: 0px;
+    margin-bottom: 10px ;
+
+}
+
+
+.message-card button{
+    border: none;
+
+}
+
+.image-card{
+    display: flex;
+    flex: 1;
+    background:#f9faf8c9;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    
+}
+
+.up{
+    padding: 0px 100px;
+}
+
+.up h3{
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937;
+    text-align: center;
+    
+}
+
+.info{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0px 80px;
+    margin-bottom: 100px;
+}
+
+.card-image{
+    border: solid;
+    width: 165px;
+    height: 165px;
+    border-radius: 8px;
+    border-color: #3882f6 ;
+    border-width: 4px;
+}
+
+.card-text{
+    max-width: 180px;
+    text-align: center;
+    color: #1f2937;
+    font-size: 18px;
+}
+
+.midle{
+    background-color: #e5e7eb ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px 180px;
+}
+
+.midle p{
+    font-size: 36px;
+    color: #1f2937;
+    font-style: italic;
+}
+
+.midle h3{
+    margin-left: auto;
+}
+
+.down{
+    padding: 60px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    background-color: #3882f6;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 50px;
+}
+
+.container div{
+    display: block;
+}
+.container button{
+    flex: 1;
+    border: solid;
+    border-color: white;
+    border-width: 3px;
+    margin: 0px 30px 0px 100px;
+}
+
+.footer{
+    text-align: center;
+    color: #e5e7eb;
+    background-color: #1F2937;
+    padding: 30px 0px;
 }
